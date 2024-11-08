@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(90deg, red, blue, green, purple, orange);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">This is a page  </div>
+
+    <script>
+        // <!-- alert in inbrower javascript -->
+        alert('this is a messege');
+
+        let name = prompt("what is your name?", "Guest");
+        console.log(name);
+
+
+
+        // Use of confirm command.
+
+
+        let deletepost = confirm("Do you really want to delete this post?");
+        console.log(deletepost);
+
+
+
+        // You can do double check. For example....
+
+        let deletethepost = confirm("Do you really want to delete this post?");
+        if(deletethepost){
+            console.log("Your post has been deleted successfully");
+        }
+        else{
+           console.log("Your post has not been deleted");
+        }
+        console.log(deletethepost);
+
+
+
+
+        
+    </script>
+</body>
+</html>
